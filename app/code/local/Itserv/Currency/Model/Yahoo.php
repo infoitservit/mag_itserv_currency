@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-class Itserv_Currency_Model_Yahoo extends Mage_Core_Model_Directory_Currency_Import_Abstract {
+class Itserv_Currency_Model_Yahoo extends Mage_Directory_Model_Currency_Import_Abstract {
     protected $_url = 'http://quote.yahoo.com/d/quotes.csv?s={{CURRENCY_FROM}}{{CURRENCY_TO}}=X&f=l1&e=.csv';
     protected $_messages = array();
  
