@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Itserv_Currency>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Adminhtml />
+                <Mage_Core />
+            </depends>
+        </Itserv_Currency>
+    </modules>
+</config>
